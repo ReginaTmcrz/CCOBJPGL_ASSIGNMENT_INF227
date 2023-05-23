@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="810.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CoffeeShopController">
+   <children>
+      <ImageView fx:id="cbtl" fitHeight="124.0" fitWidth="139.0" layoutX="336.0" layoutY="52.0">
+         <image>
+            <Image url="@../../../../Downloads/cbtll.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="frnk" fitHeight="117.0" fitWidth="128.0" layoutX="569.0" layoutY="59.0">
+         <image>
+            <Image url="@../../../../Downloads/frnk.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="jco" fitHeight="124.0" fitWidth="120.0" layoutX="139.0" layoutY="45.0">
+         <image>
+            <Image url="@../../../../Downloads/jcologo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="jcoBtn" layoutX="161.0" layoutY="185.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: black; -fx-background-color: ;" text="J.CO" textFill="#ff5100">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="timHortons" fitHeight="124.0" fitWidth="128.0" layoutX="470.0" layoutY="272.0">
+         <image>
+            <Image url="@../../../../Downloads/timHortons.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="cbtlBtn" layoutX="355.0" layoutY="185.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="34.0" prefWidth="101.0" style="-fx-background-color: black;" text="CBTL" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="cpBtn" layoutX="172.0" layoutY="417.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="42.0" prefWidth="174.0" style="-fx-background-color: black;" text="Coffee Project" textFill="#b26e6e">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="124.0" fitWidth="120.0" layoutX="199.0" layoutY="278.0">
+         <image>
+            <Image url="@../../../../Downloads/coffeeProj.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="frnkBtn" layoutX="582.0" layoutY="179.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="34.0" prefWidth="101.0" style="-fx-background-color: black;" text="FRNK" textFill="#467dff">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="thBtn" layoutX="462.0" layoutY="421.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="34.0" prefWidth="145.0" style="-fx-background-color: black;" text="Tim Hortons" textFill="#c93c3c">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
