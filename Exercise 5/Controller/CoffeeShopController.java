@@ -64,7 +64,7 @@ public class CoffeeShopController {
         }
 
         if (sourceButton == thBtn) {
-            alert.setContentText("Coffee Project Coffee are " + th.getRating() + " and " + th.getTaste());
+            alert.setContentText("Tim Hortons Coffee are " + th.getRating() + " and " + th.getTaste());
         }
 
         alert.showAndWait();
